@@ -9,14 +9,14 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 23; x <= 31; x++)
+	for (x = 48; x <= 57; x++)
 	{
-		for (y = x + 1; y <= 31; y++)
+		for (y = x + 1; y <= 57; y++)
 		{
 			putchar(x);
 			putchar(y);
 
-			if (!(x == 30 && y == 33))
+			if (!(x == 56 && y == 57))
 			{
 				putchar(',');
 				putchar(' ');
